@@ -100,7 +100,7 @@ body {
 }
 
 .btn--big {
-    padding-top: 0;         /* ← mudou */
+    padding-top: 10;         /* ← mudou */
     border-radius: 50%;
     background-color: white;
     border: 10px solid;
@@ -109,9 +109,14 @@ body {
     font-size: 3.2rem;
     margin: 0 30px;
     transition: all 0.5s;
-    display: flex;          /* ← adicionou */
-    align-items: center;    /* ← adicionou */
-    justify-content: center; /* ← adicionou */
+   
+}
+.btn--big::after {
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: -0.5em;
 }
 
 .btn--blue {
