@@ -33,24 +33,24 @@ body {
     padding: 1%;
 }
 
-.question-areaa {
+.question-area {
     width: 50%;
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
 }
 
-.question-areaa span {
+.question-area span {
     padding: 0 15px;
 }
 
-.score-areaa {
+.score-area {
     margin: 5px auto;
     width: 60%;
     font-size: 1.2rem;
 }
 
-.controls-areaa {
+.controls-area {
     width: 85%;
     margin: 30px auto;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .btn--big {
-    padding-top: 10;         /* ← mudou */
+    padding-top: 10px;         /* ← mudou */
     border-radius: 50%;
     background-color: white;
     border: 10px solid;
@@ -178,7 +178,7 @@ body {
 /* --------- Media queries */
 
 @media (max-width: 414px) {
-    .controls-areaa {
+    .controls-area {
         width: 100%;
     }
 
@@ -196,12 +196,12 @@ body {
         left: -0.7rem;
     }
 
-    .question-areaa {
+    .question-area {
         padding: 10% 0;
         width: 100%;
     }
 
-    .question-areaa span {
+    .question-area span {
         padding: 0;
     }
 
@@ -217,7 +217,7 @@ body {
         margin-top: 0;
     }
 
-    .score-areaa {
+    .score-area {
         width: 100%;
     }
 
@@ -233,11 +233,11 @@ body {
 }
 
 @media (max-width: 320px) {
-    .game-areaa {
+    .game-area {
         height: 70vh;
     }
 
-    .controls-areaa {
+    .controls-area {
         width: 75%;
         margin: 10px auto;
     }
@@ -245,7 +245,7 @@ body {
     .btn--big {
         margin: 10px 10px;
     }
-    .question-areaa {
+    .question-area {
         padding: 10px 0;
     }
 
