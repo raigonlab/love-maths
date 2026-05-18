@@ -21,7 +21,7 @@ body {
 
 /* --------- Game layout */
 
-.game-areaa {
+.game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;
     width: 85%;
@@ -246,7 +246,7 @@ body {
         margin: 10px 10px;
     }
     .question-area {
-        padding: 10px 0;99
+        padding: 10px 0;
     }
 
 }
